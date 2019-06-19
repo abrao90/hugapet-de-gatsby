@@ -52,12 +52,6 @@ module.exports = {
         ],
       },
     },
-    `gatsby-plugin-typescript`,
-    { 
-    resolve: 'gatsby-soa`urce-firestore',
-    options: {
-      credential: require("./firebase.json")
-    },
-  },
+    
   ],
 }
